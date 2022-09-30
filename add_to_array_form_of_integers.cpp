@@ -3,7 +3,7 @@
 
 class Solution {
 public:
-    vector<int> addToArrayForm(vector<int>& A, int K) {
+    vector<int> add_To_Array_Form(vector<int>& A, int K) {
         reverse(A.begin(), A.end());
         int carry = K, i = 0;
         A[i] += carry;
